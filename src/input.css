@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blur-out {
+  animation: blur-out 0.9s linear both;
+}
+@keyframes blur-out {
+  0% {
+    filter: blur(0.01px);
+  }
+  100% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+}
+
+.blur-in-expand {
+  animation: blur-in-expand 1s linear both;
+}
+@keyframes blur-in-expand {
+  0% {
+    transform: scale(0);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
