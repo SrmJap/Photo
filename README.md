@@ -1,7 +1,7 @@
 # Photo# ERIKA NAKAMURA Profesional Photografer Fictional Website.
 
 
-The project has been makec using React and Tailwind css.
+The project has been makec using  and Tailwind css.
 
 The page consists of a:
 
